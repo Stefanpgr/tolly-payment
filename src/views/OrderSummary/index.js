@@ -48,7 +48,7 @@ const OrderSummary = () => {
       </div>
       <Accordion title="Dr.Martens" />
       <Accordion title="Chanel" />
-      <div className="flex-row space-between">
+      <div className="flex-row space-between" style={{ marginTop: '2rem' }}>
         <p>Total Amount:</p>
         <p style={{ color: '#111414', fontSize: '1rem', fontWeight: 'bold' }}>$3680.60</p>
       </div>

@@ -14,7 +14,7 @@ const Steps = ({ color, step, index, icon }) => {
       >
         {icon}
       </div>
-      <div style={{ paddingLeft: '1rem' }}>
+      <div style={{ paddingLeft: '0.8rem' }}>
         <p style={{ fontSize: '14px' }} className="text-muted">
           Step {index + 1}
         </p>

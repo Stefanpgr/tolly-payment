@@ -2,18 +2,18 @@ import Button from './Button'
 
 const Form = () => {
   return (
-    <form style={{ paddingLeft: '4rem', width: '100%' }}>
+    <form style={{ paddingLeft: '4rem', width: '100%', marginTop: '1rem' }}>
       <label className="text-muted">Credit card</label>
       <input type="text" className="input-large" />
 
       <label className="text-muted">Name</label>
       <input type="text" className="input-large" />
       <div className="flex-row">
-        <div style={{ width: '30%' }}>
+        <div style={{ width: '40%' }}>
           <label className="text-muted">Expiration date</label>
           <input type="text" className="input-small" />
         </div>
-        <div style={{ width: '20%', marginLeft: '4rem' }}>
+        <div style={{ width: '40%', marginLeft: '4rem' }}>
           <label className="text-muted">CVV</label>
           <input type="text" className="input-small" />
         </div>
