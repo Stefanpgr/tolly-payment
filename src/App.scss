@@ -1,0 +1,131 @@
+p{
+  padding: 0 !important;
+  margin: 0;
+}
+.App {
+  /* background-color: #d1dcdf; */
+  max-height: 100vh;
+  /* padding: 20rem; */
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+body {
+  /* background-color: red; */
+  background-color: #F3F7F8
+}
+.text-muted{
+  color: #898a8b
+}
+.text-black{
+  color: #111414;
+}
+.p-details-cont {
+  background-color: #fff;
+  height: 90vh;
+  padding: 5rem;
+  width: 100%;
+  border-radius: 8px;
+  .menu-wrap{
+    background-color: #f5f8f9;
+    width: 7rem;
+    height: 2.8rem;
+    border-radius: 18px;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  // .tab-items{
+  //   margin-right: 1rem;
+    
+  // }
+  .ccard-cont{
+    height: 8rem;
+    width: 16rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+  }
+ .input-large {
+    padding:15px 10px;
+    margin:10px 0; 
+    border: 0;
+    background-color: #f5f8f9;
+    width: 100%;
+    font-size: 1rem;
+  }
+  .input-small {
+    padding:15px 10px;
+    margin:10px 0; 
+    border: 0;
+    background-color: #f5f8f9;
+    width: 100%;
+    font-size: 1rem;
+  }
+  input{
+    margin-bottom: 2rem !important;
+  }
+
+}
+.btn{
+  background-color: #111414;
+  border: 0;
+  color: #fff;
+  padding: 1rem 2rem;
+ border-radius: 6px;
+}
+.flex-row {
+  flex-direction: row;
+  display: flex;
+}
+.space-between{
+  justify-content: space-between;
+}
+
+.ordersum-cont {
+  height: auto;
+  padding: 3rem;
+  width: 60%;
+  h4{
+    font-size: 1.6rem;
+  }
+  .step-wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // justify-content: space-between;
+    // background-color: aqua;
+    // width: 100%;
+  }
+  .step-text{
+    color: #bdbfc0
+  }
+  .accordion{
+    background-color: #fff;
+    height: 3.4rem;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  .expanded{
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+  }
+  .order-items{
+    // margin-bottom: 0.7rem;
+    line-height: 40px;
+  }
+}
+
+.flex-cont {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+ label {
+  display:block !important;
+}
